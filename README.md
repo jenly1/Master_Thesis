@@ -23,4 +23,13 @@ This repository contains both the data and scripts utilized for post-processing 
   - **Theoretical data**: Binary mixtures with H2+CH4, H2+N2. Trinary mixture with H2+CH4+C2H6. 
 
 - *Sensor folder:*
-  - **Experimental data:** Log files from BGA244, opTim, and XEN-TCG3880. The log files are modified to be readable by MATLAB, i.e. dots have been changed to commas, unreadable symbols have been removed, etc.
+  - **Experimental data:** Log files from BGA244, opTim, and XEN-TCG3880. The log files are modified to be readable by MATLAB.
+
+
+## Important notes
+- To succesfully run the *REFPROP_post_processing.m:* and *Sensor_post_processing.m:* scripts:
+  - For future use with new experimental data, the sensor log files need to be modified to be readable by MATLAB. I.e. dots must be changed to commas and unreadable symbols must be removed.
+  - The path way to the data files need to be changed in all scripts to be read properly. The path way is labeled differently in all scripts, but does all contain the word *"path"*.
+  - The variable *"compos"* represents the amount of mixtures being investigated and should be changed accordingly. 
+- The *opTim_extract.m:* does not remove deviating points when averaging. This was not discovered until the end. Thus, one need to either modify the *opTim_extract.m:* script or manually remove the deviating points from the opTim sensor log files. 
+-  
