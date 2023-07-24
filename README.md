@@ -19,10 +19,10 @@ This repository contains both the data and scripts utilized for post-processing 
   - **pressure_variation.m:** Post-processes the experimentally obtained data where the pressure is varied. 
 
 **Data**
-- *REFPROP data:*
+- *REFPROP_DATA:*
   - **Theoretical data**: Binary mixtures with H2+CH4, H2+N2. Trinary mixture with H2+CH4+C2H6. 
 
-- *Sensor folder:*
+- *SENSOR_DATA:*
   - **Experimental data:** Log files from BGA244, opTim, and XEN-TCG3880. The log files are modified to be readable by MATLAB.
 
 
