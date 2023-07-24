@@ -1,7 +1,7 @@
 # MJ232X-Master-Thesis
 This repository contains both the data and scripts utilized for post-processing in the master thesis entitled "The Calibration of the Measurement System for Methane Pyrolysis in Rocket Nozzle Cooling Channels". 
 
-## Contains
+## Content
 **Scripts**
 - *Main:*
   - **REFPROP_post_processing.m:** Post-processes the data obtained by REFPORP generated files. Includes abs. change, rel. change, theoretical correction coefficients, uncertainty analysis. 
